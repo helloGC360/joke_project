@@ -1,0 +1,64 @@
+body {
+    background: #fef3bd;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .cartoon {
+    display: inline-block;
+    background-image:radial-gradient(#fa0,#f94);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(255, 198, 74, 0.2);
+  }
+  
+  .eyes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .eye {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 2px solid #333;
+    border-radius: 50%;
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  .eye::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+  
+  .mouth {
+    width: 80px;
+    height: 40px;
+    background: #ff6b6b;
+    border-radius: 0 0 40px 40px;
+    margin: 0 auto 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #da541f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover{
+     background: #f16f3c;
+  }
+  

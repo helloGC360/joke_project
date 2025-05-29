@@ -1,0 +1,10 @@
+{
+    "manifest_version": 4,
+    "name": "helloGC",
+    "version": "1.0",
+    "description": "It's me Yamme",
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    }
+  }
+  
