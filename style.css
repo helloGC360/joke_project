@@ -2,10 +2,14 @@ body {
     background: #fef3bd;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
+    width:100vw;
+    height:100vh;
   }
   
   .cartoon {
+      width:90%;
+      min-height:400px;
     display: inline-block;
     background-image:radial-gradient(#fa0,#f94);
     padding: 30px;
