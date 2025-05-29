@@ -7,8 +7,7 @@ body {
   }
   
   .cartoon {
-      width:90%;
-      height:600px;
+      width:90%;  
     display: inline-block;
     background-image:radial-gradient(#fa0,#f94);
     padding: 30px;
@@ -67,5 +66,5 @@ body {
   
 p{
     font-family:none;
-    font-size:30px;
+    font-size:50px;
 }
