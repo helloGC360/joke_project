@@ -1,6 +1,5 @@
 body {
     background: #fef3bd;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
     padding-top: 80px;
     width:100vw;
@@ -67,5 +66,6 @@ body {
   }
   
 p{
-    font-size:60px;
+    font-family:none;
+    font-size:100px;
 }
