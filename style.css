@@ -9,7 +9,7 @@ body {
   
   .cartoon {
       width:90%;
-      min-height:600px;
+      height:600px;
     display: inline-block;
     background-image:radial-gradient(#fa0,#f94);
     padding: 30px;
